@@ -45,16 +45,18 @@ export const LogoDiv = styled.div`
   align-items: center;
 `
 export const TitleSpan1 = styled.span`
-  padding: 0 20px;
-  font-weight: 800;
+  padding-left: 50px;
+  padding-right: 5px;
+  font-weight: 100;
   font-size: 20px;
   font-family: "GillSansMTProBook";
 `
 export const TitleSpan2 = styled.span`
-  font-weight: 600;
+  font-weight: 800;
+  font-size: 20px;
 `
 export const List = styled.ul`
-  padding: 0 20px;
+  padding: 0 50px;
   display: flex;
   list-style: none;
 `
@@ -62,11 +64,12 @@ export const LogoImg = styled.img`
   height: 20px;
 `
 export const LinkNav = styled(Link)`
-  font-size: 16px;
+  font-family: "GillSansMTProBook";
+  font-size: 14 px;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
   color: white;
-  margin-left: 10px;
+  margin-left: 20px;
   &:hover {
     color: #ffff;
     transform: scale(1.05);

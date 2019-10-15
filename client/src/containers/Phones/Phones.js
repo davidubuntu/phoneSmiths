@@ -23,7 +23,6 @@ const Phones = () => {
     //  tests
     return true
   }
-
   if (shouldComponentRender()) return <Loading />
   return (
     <>

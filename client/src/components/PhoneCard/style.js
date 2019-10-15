@@ -60,6 +60,7 @@ export const ProductImageBox = styled.div`
   }
 `
 export const AddButton = styled(Link)`
+  font-size: 13px;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -16,14 +16,14 @@ export const CardContainer = styled.div`
 `
 export const JumboContainer = styled.div`
   .jumbotron {
-    margin: 50px;
+    margin: 50px 150px 50px 0px;
   }
   .container {
     padding: 50px;
   }
   @media screen and (max-width: 1000px) {
     .jumbotron {
-      margin: 50px;
+      margin: 15px 50px;
       padding: 10px;
     }
     .container {
@@ -52,7 +52,12 @@ export const Image = styled.img`
   -webkit-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
   @media screen and (max-width: 1000px) {
-    height: 250px;
+    height: 500px;
+    margin-top: 150px;
+  }
+  @media screen and (max-width: 500px) {
+    height: 350px;
+    margin-top: 150px;
   }
 `
 
@@ -65,6 +70,7 @@ export const PriceSpan = styled.span`
   margin-bottom: 30px;
   @media screen and (max-width: 1000px) {
     margin: 0px;
+    font-size: 21px;
   }
 `
 export const AddButton = styled.button`
@@ -90,6 +96,11 @@ export const AddButton = styled.button`
       background-color: transparent;
       opacity: 0.65; 
   }
+  @media screen and (max-width: 1000px) {
+    padding: 8px;
+    width: 20%;
+    margin-top: 10px;
+  }
 `
 export const SpecificationsDiv = styled.div`
   display: flex;
@@ -110,31 +121,30 @@ export const DescriptionText = styled.span`
   letter-spacing: 2px;
   font-weight: lighter;
   @media screen and (max-width: 1000px) {
-    font-size: 14px;
+    font-size: 15px;
   }
 `
 export const BackButton = styled.a`
   color: #1c758c;
-  margin-right: 80px;
+  margin-right: 150px;
+  @media screen and (max-width: 1000px) {
+    margin-right: 50px;
+  }
 `
 export const TitlePanel = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  @media screen and (max-width: 1000px) {
-    width: 90%;
-  }
 `
 export const Title = styled.span`
   font-size: 42px;
   font-family: "GillSansMTProBook";
   letter-spacing: 5px;
-  margin-left: 100px;
   @media screen and (max-width: 1000px) {
-    font-size: 20px;
+    font-size: 26px;
     font-weight: bold;
-    margin: 0px;
+    margin-left: 50px;
   }
 `
 export const DataTitle = styled.span`
@@ -144,7 +154,7 @@ export const DataTitle = styled.span`
   margin: 0px 10px;
   letter-spacing: 1px;
   @media screen and (max-width: 1000px) {
-    font-size: 12px;
+    font-size: 15px;
   }
 `
 export const DataLabel = styled.span`
