@@ -65,7 +65,7 @@ You will also see any lint errors in the console.
 ## INSTALL AND RUN USING DOCKER
 
 - docker and docker-compose are necesary.
-  https://docs.docker.com/v17.09/engine/installation/
+  https://docs.docker.com/install/
 - Node and npm are not necessary.
 
 In the project directory, you can run:
