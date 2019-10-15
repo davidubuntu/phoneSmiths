@@ -9,9 +9,8 @@ export const CardContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding-top: 70px;
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 1000px) {
     flex-direction: column;
-    margin: 0px 50px;
     }
   }
 `
@@ -22,13 +21,13 @@ export const JumboContainer = styled.div`
   .container {
     padding: 50px;
   }
-  @media screen and (max-width: 767px) {
-    padding: 20px;
+  @media screen and (max-width: 1000px) {
     .jumbotron {
+      margin: 20px;
       padding: 10px;
     }
     .container {
-      padding: 0px;
+      padding: 10px;
     }
   }
 `
@@ -36,11 +35,9 @@ export const PhonePanel = styled.div`
   display: flex;
   flex-direction:column
   align-items: center;
-  @media screen and (max-width: 767px) {
-    flex-direction: row;
-    justify-content: space-around;
-    align-content: center;
+  @media screen and (max-width: 1000px) {
     width: 100%;
+    margin-bottom: 20px;
   }
 `
 export const DescriptionPanel = styled.div`
@@ -54,10 +51,8 @@ export const Image = styled.img`
   hobject-fit: cover;
   -webkit-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
-  @media screen and (max-width: 767px) {
-    height: 300px;
-    border-radius: 3px 3px 0 0;
-    margin: 20px;
+  @media screen and (max-width: 1000px) {
+    height: 250px;
   }
 `
 
@@ -68,7 +63,7 @@ export const PriceSpan = styled.span`
   border-radius: 6px;
   font-size: 25px;
   margin-bottom: 30px;
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 1000px) {
     margin: 0px;
   }
 `
@@ -114,7 +109,7 @@ export const DescriptionText = styled.span`
   font-size: 22px;
   letter-spacing: 2px;
   font-weight: lighter;
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 1000px) {
     font-size: 14px;
   }
 `
@@ -127,7 +122,7 @@ export const TitlePanel = styled.div`
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 1000px) {
     width: 90%;
   }
 `
@@ -136,7 +131,7 @@ export const Title = styled.span`
   font-family: "GillSansMTProBook";
   letter-spacing: 5px;
   margin-left: 50px;
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 1000px) {
     font-size: 20px;
     font-weight: bold;
     margin: 0px;
@@ -148,7 +143,7 @@ export const DataTitle = styled.span`
   font-weight: 800;
   margin: 0px 10px;
   letter-spacing: 1px;
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 1000px) {
     font-size: 12px;
   }
 `
@@ -156,7 +151,7 @@ export const DataLabel = styled.span`
   font-size: 18px;
   color: #636161;
   font-weight: 100;
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 1000px) {
     font-size: 12px;
   }
 `

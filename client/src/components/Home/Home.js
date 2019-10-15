@@ -9,8 +9,6 @@ const Home = () => {
         <div id="large-header" className="large-header">
           <canvas id="demo-canvas"></canvas>
           <h1 className="main-title">
-            {/* <span className="thin">Phone</span>
-            <span className="sub"> Smiths</span> */}
             <div>
               <Links>
                 <LinkNav to="/phones" color={"#D8D8D8"}>

@@ -17,7 +17,6 @@ const Header = () => {
         <LinkNav to={"/phones"}>CATALOG</LinkNav>
         <LinkNav to={"/"}>EXPLORE</LinkNav>
         <LinkNav to={"/"}>SUPPORT</LinkNav>
-        <LinkNav to={"/"}> COMPANIES</LinkNav>
       </List>
     </HeaderDiv>
   )
