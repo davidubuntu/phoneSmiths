@@ -66,7 +66,7 @@ You will also see any lint errors in the console.
 
 - docker and docker-compose are necesary.
   https://docs.docker.com/install/
-- Node and npm are not necessary.
+- node and npm are not necessary.
 
 In the project directory, you can run:
 
