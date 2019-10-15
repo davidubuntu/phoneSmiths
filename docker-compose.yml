@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
     image: ddiezr/web_phone_smiths
     ports:
-      - "3000:3000"
+      - ${REACT_APP_PORT}:${REACT_APP_PORT}
   backend:
     container_name: phone_smiths_server
     build:
@@ -15,4 +15,4 @@ services:
       dockerfile: Dockerfile
     image: ddiezr/api_phone_smiths
     ports:
-      - "5000:5000"
+      - ${APP_SERVER_PORT}:${APP_SERVER_PORT}
