@@ -7,6 +7,7 @@ services:
       dockerfile: Dockerfile
     image: ddiezr/web_phone_smiths
     ports:
+      # env port variables for deployment purpose
       - 3000:3000
   backend:
     container_name: phone_smiths_server
@@ -15,4 +16,5 @@ services:
       dockerfile: Dockerfile
     image: ddiezr/api_phone_smiths
     ports:
+      # env port variables for deployment purpose
       - 5000:5000

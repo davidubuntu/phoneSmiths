@@ -34,14 +34,19 @@ Web is divided in two main parts (each of them is a link in the header navbar):
 ## INSTALL USING NPM
 
 - ## First
-  In the project root directory, you can run:
+  In the project root directory, run:
+
+### `npm i`
+
+- ## Second
+  In the project root directory, run:
 
 ### `cd client`
 
 ### `npm i`
 
-- ## Second
-  In the project root directory, you can run:
+- ## Third
+  In the project root directory, run:
 
 ### `cd server`
 
