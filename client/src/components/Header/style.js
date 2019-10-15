@@ -60,9 +60,7 @@ export const List = styled.ul`
   display: flex;
   list-style: none;
 `
-export const LogoImg = styled.img`
-  height: 20px;
-`
+
 export const LinkNav = styled(Link)`
   font-family: "GillSansMTProBook";
   font-size: 14 px;

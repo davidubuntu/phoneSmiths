@@ -4,7 +4,6 @@ import {
   TitleSpan1,
   List,
   LinkNav,
-  LogoImg,
   LogoDiv,
   TitleSpan2
 } from "./style"
