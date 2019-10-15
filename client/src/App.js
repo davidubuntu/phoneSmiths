@@ -13,10 +13,18 @@ import {
   faEuroSign,
   faChevronCircleDown,
   faCaretDown,
-  faHome
+  faHome,
+  faBars
 } from "@fortawesome/free-solid-svg-icons"
 
-library.add(faArrowLeft, faEuroSign, faChevronCircleDown, faCaretDown, faHome)
+library.add(
+  faArrowLeft,
+  faEuroSign,
+  faChevronCircleDown,
+  faCaretDown,
+  faHome,
+  faBars
+)
 
 const AppDiv = styled.div`
   /* height: 100vh; */

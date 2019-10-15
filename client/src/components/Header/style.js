@@ -59,6 +59,10 @@ export const List = styled.ul`
   padding: 0 50px;
   display: flex;
   list-style: none;
+  @media screen and (max-width: 767px) {
+    margin-right: 10px;
+    transform: scale(0);
+  }
 `
 
 export const LinkNav = styled(Link)`
@@ -72,4 +76,11 @@ export const LinkNav = styled(Link)`
     color: #ffff;
     transform: scale(1.05);
   }
+`
+export const Icon = styled.div`
+display: none;
+position: fixed;
+right: 20px;
+@media screen and (max-width: 767px) {
+  display: block;
 `

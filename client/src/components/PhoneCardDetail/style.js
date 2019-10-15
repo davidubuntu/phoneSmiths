@@ -19,7 +19,7 @@ export const JumboContainer = styled.div`
     margin: 50px 150px 50px 0px;
   }
   .container {
-    padding: 50px;
+    padding: 20px 45px;
   }
   @media screen and (max-width: 1000px) {
     .jumbotron {
@@ -52,7 +52,7 @@ export const Image = styled.img`
   -webkit-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
   @media screen and (max-width: 1000px) {
-    height: 500px;
+    height: 400px;
     margin-top: 150px;
   }
   @media screen and (max-width: 500px) {

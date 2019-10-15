@@ -5,7 +5,8 @@ import {
   List,
   LinkNav,
   LogoDiv,
-  TitleSpan2
+  TitleSpan2,
+  Icon
 } from "./style"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 const Header = () => {
@@ -15,7 +16,9 @@ const Header = () => {
         <TitleSpan1>Phone</TitleSpan1>
         <TitleSpan2>Smiths</TitleSpan2>
       </LogoDiv>
-
+      <Icon>
+        <FontAwesomeIcon icon="bars" />
+      </Icon>
       <List>
         <LinkNav to={"/"}>
           <FontAwesomeIcon icon="home" size="xs" />
