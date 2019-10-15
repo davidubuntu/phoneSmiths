@@ -16,14 +16,14 @@ export const CardContainer = styled.div`
 `
 export const JumboContainer = styled.div`
   .jumbotron {
-    margin-right: 50px;
+    margin: 50px;
   }
   .container {
     padding: 50px;
   }
   @media screen and (max-width: 1000px) {
     .jumbotron {
-      margin: 20px;
+      margin: 50px;
       padding: 10px;
     }
     .container {
@@ -130,7 +130,7 @@ export const Title = styled.span`
   font-size: 42px;
   font-family: "GillSansMTProBook";
   letter-spacing: 5px;
-  margin-left: 50px;
+  margin-left: 100px;
   @media screen and (max-width: 1000px) {
     font-size: 20px;
     font-weight: bold;
