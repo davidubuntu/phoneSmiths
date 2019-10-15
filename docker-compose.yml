@@ -1,0 +1,18 @@
+version: "3"
+services:
+  frontend:
+    container_name: phone_smiths_client
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    image: ddiezr/web_phone_smiths
+    ports:
+      - "3000:3000"
+  backend:
+    container_name: phone_smiths_server
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    image: ddiezr/api_phone_smiths
+    ports:
+      - "5000:5000"

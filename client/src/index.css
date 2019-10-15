@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "GillSansMTProBook";
+  src: url(../src/assets/fonts/GillSansMTPro-Book.woff);
+}
+@font-face {
+  font-family: "GillSansMTProBookMedium";
+  src: url(../src/assets/fonts/GillSansMTPro-Medium.woff);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  /* background: #f7f7f7; */
+  font-family: "GillSansMTProBook" !important;
+}
