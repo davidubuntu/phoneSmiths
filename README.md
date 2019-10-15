@@ -33,19 +33,19 @@ Web is divided in two main parts (each of them is a link in the header navbar):
 
 ## INSTALL USING NPM
 
-- ## First
+- ## Step 1
   In the project root directory, run:
 
 ### `npm i`
 
-- ## Second
+- ## Step 2
   In the project root directory, run:
 
 ### `cd client`
 
 ### `npm i`
 
-- ## Third
+- ## Step 3
   In the project root directory, run:
 
 ### `cd server`
