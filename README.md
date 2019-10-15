@@ -33,43 +33,43 @@ Web is divided in two main parts (each of them is a link in the header navbar):
 
 ## INSTALL USING NPM
 
-- 1 In the project root directory, you can run:
+- ## First
+  In the project root directory, you can run:
 
 ### `cd client`
 
 ### `npm i`
 
-### `npm start`
-
-- 2 In the project root directory, you can run:
+- ## Second
+  In the project root directory, you can run:
 
 ### `cd server`
 
 ### `npm i`
 
-### `npm start`
-
 ## RUN USING NPM
 
-- 3 In the project root directory, you can run:
+In the project root directory, you can run:
 
-This
+### `npm start`
+
+This will run both server and client:
+
 Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-Open [http://localhost:5000/phones](http://localhost:5000/phones) to view the node api route
+
+- Open [http://localhost:3000](http://localhost:3000) to view the client app in the browser.
+- Open [http://localhost:5000/phones](http://localhost:5000/phones) to view the node api route
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
 ## INSTALL AND RUN USING DOCKER
 
-- Node and npm are not necessary. Docker is necessary
+- Docker is necessary.Node and npm are not necessary.
 
 In the project directory, you can run:
 
 ### `docker-compose up`
 
-- CLIENT APP:
-  Open [http://localhost:3000](http://localhost:3000) to view the app in the browser.
-- API:
-  Open [http://localhost:5000/phones](http://localhost:5000/phones) to view the node api route
+- Open [http://localhost:3000](http://localhost:3000) to view the client app in the browser.
+- Open [http://localhost:5000/phones](http://localhost:5000/phones) to view the node api route
