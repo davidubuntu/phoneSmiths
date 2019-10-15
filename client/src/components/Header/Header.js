@@ -24,8 +24,8 @@ const Header = () => {
           <FontAwesomeIcon icon="home" size="xs" />
         </LinkNav>
         <LinkNav to={"/phones"}>CATALOG</LinkNav>
-        <LinkNav to={"/"}>EXPLORE</LinkNav>
-        <LinkNav to={"/"}>SUPPORT</LinkNav>
+        <LinkNav to={""}>EXPLORE</LinkNav>
+        <LinkNav to={""}>SUPPORT</LinkNav>
       </List>
     </HeaderDiv>
   )
