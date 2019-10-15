@@ -31,30 +31,31 @@ Web is divided in two main parts (each of them is a link in the header navbar):
 - Home
 - Phones
 
-## Available Scripts
+## INSTALL INSTRUCTIONS
 
 In the project directory, you can run:
 
-## Available Scripts
-
-## DOCKER
-
-In the project directory, you can run:
+## USING DOCKER
 
 ### `docker-compose up`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view the app in the browser.
-Open [http://localhost:5000/phones](http://localhost:5000/phones) to view the node api route
+This comand will open:
 
-## NPM
+- CLIENT APP:
+  Open [http://localhost:3000](http://localhost:3000) to view the app in the browser.
+- API:
+  Open [http://localhost:5000/phones](http://localhost:5000/phones) to view the node api route
+
+## USING NPM
 
 ### `npm i`
 
 ### `npm start`
 
+This
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:5000/phones](http://localhost:5000/phones) to view the node api route
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
