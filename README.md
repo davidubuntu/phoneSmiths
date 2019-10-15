@@ -49,13 +49,12 @@ Web is divided in two main parts (each of them is a link in the header navbar):
 
 ## RUN USING NPM
 
+Runs the app in the development mode.<br />
 In the project root directory, you can run:
 
 ### `npm start`
 
 This will run both server and client:
-
-Runs the app in the development mode.<br />
 
 - Open [http://localhost:3000](http://localhost:3000) to view the client app in the browser.
 - Open [http://localhost:5000/phones](http://localhost:5000/phones) to view the node api route
