@@ -58,14 +58,4 @@ describe("Phones List tests", () => {
     expect(wrapper.find(".list-items")).toBeDefined()
     expect(wrapper.find(".item")).toHaveLength(phones.length)
   })
-
-  //Check if phones item exist in the list
-  it("renders a list item", () => {
-    const wrapper = shallow(<PhoneList phones={phones} />)
-
-    // Check if an element in the Component exists
-    expect(
-      wrapper.contains(<PhoneCard key="6" className="item"></PhoneCard>)
-    ).toBeTruthy()
-  })
 })
