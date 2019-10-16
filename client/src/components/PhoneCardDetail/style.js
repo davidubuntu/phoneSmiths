@@ -19,7 +19,7 @@ export const JumboContainer = styled.div`
     margin: 50px 150px 50px 0px;
   }
   .container {
-    padding: 20px 45px;
+    padding: 30px;
   }
   @media screen and (max-width: 1000px) {
     .jumbotron {
@@ -56,8 +56,8 @@ export const Image = styled.img`
     margin-top: 150px;
   }
   @media screen and (max-width: 500px) {
-    height: 350px;
-    margin-top: 150px;
+    height: 310px;
+    margin-top: 100px;
   }
 `
 
@@ -129,6 +129,7 @@ export const BackButton = styled.a`
   margin-right: 150px;
   @media screen and (max-width: 1000px) {
     margin-right: 50px;
+    font-size: 12px;
   }
 `
 export const TitlePanel = styled.div`
