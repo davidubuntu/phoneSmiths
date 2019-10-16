@@ -16,7 +16,10 @@ Simple web application that shows a phone catalog with the information about dif
 ## Decisions
 
 I decided to use create-react-app js application using a simple configuration.
-I separate in single components to achieve the main purpose of the web. For the javascript part there is a main component which manages the communication with the api data model using Reudx.
+
+I separate in single components to achieve the main purpose of the web.There is a main component which manages the communication with the api data model using Reudx.
+
+I included more visual elements than the basic interface to make it similar to a real app, even not being functional any button or link apart from catalog(button and link).
 
 For styling I used styled components to style the web.
 
