@@ -15,7 +15,7 @@ const LoadingDiv = styled.div`
 const Loading = () => {
   return (
     <LoadingDiv>
-      <LoadingImg src="./logos/loading3.gif" />
+      <LoadingImg src="./logos/loading.gif" />
     </LoadingDiv>
   )
 }
