@@ -86,7 +86,7 @@ export const ProductName = styled.h4`
   font-size: 20px;
   line-height: 20px;
 `
-export const ProductPrice = styled.h4`
+export const ProductPrice = styled.h3`
   font-size: 22px;
   font-weight: 700;
   line-height: 22px;

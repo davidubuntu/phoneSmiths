@@ -18,7 +18,6 @@ const PhoneCardDetail = props => {
   const [isAdded, setIsAdded] = useState(false)
   let location = useLocation()
   let history = useHistory()
-  debugger
   const phone = location.state.phone
 
   useEffect(() => {
