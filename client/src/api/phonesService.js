@@ -4,7 +4,7 @@ import Axios from "axios"
 const phonesService = dispatch => {
   dispatch(getPhonesPending())
   //Move variable to .env file in production environment
-  Axios.get("http:localhost:5000/phones")
+  Axios.get("http://localhost:5000/phones")
     .then(delay(2000))
     .then(res => {
       if (res.error) {
