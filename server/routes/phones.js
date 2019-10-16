@@ -10,16 +10,16 @@ module.exports = router
 const phones = [
   {
     id: 0,
-    name: "iPhone 7",
-    manufacturer: "Apple",
+    name: "Nokia 7.1",
+    manufacturer: "Nokia",
     description:
-      "iPhone 7 dramatically improves the most important aspects of the iPhone experience. It introduces advanced new camera systems. The best performance and battery life ever in an iPhone. Immersive stereo speakers. The brightest, most colorful iPhone display. Splash and water resistance*. And it looks every bit as powerful as it is. This is iPhone 7.",
+      "Great phone with an excellent interface. One of the best mid price range phones in the market.",
     color: "black",
-    price: 769,
-    imageFileName: "IPhone_7.png",
-    screen: "4,7 inch IPS",
-    processor: "A10 Fusion",
-    ram: 2
+    price: 275,
+    imageFileName: "Nokia_7.1.jpg",
+    screen: "5,84 inch Full-HD",
+    processor: "Octa-core",
+    ram: 4
   },
   {
     id: 1,
@@ -49,32 +49,19 @@ const phones = [
   },
   {
     id: 3,
-    name: "P10 Lite",
-    manufacturer: "Huawei",
-    description:
-      "Great phone with an excellent interface. One of the best mid price range phones in the market.",
-    color: "white",
-    price: 249,
-    imageFileName: "Xiaomi_Mi_9.png",
-    screen: "5,2 inch Full-HD",
-    processor: "Kirin 658",
-    ram: 4
-  },
-  {
-    id: 4,
-    name: "Nokia 7.1",
-    manufacturer: "Nokia",
+    name: "Moto G6",
+    manufacturer: "Motorola",
     description:
       "Great phone with an excellent interface. One of the best mid price range phones in the market.",
     color: "black",
-    price: 275,
-    imageFileName: "Nokia_7.1.jpg",
-    screen: "5,84 inch Full-HD",
-    processor: "Octa-core",
-    ram: 4
+    price: 199,
+    imageFileName: "Moto_G6.png",
+    screen: "5,7 inch Full-HD",
+    processor: "Snapdragon 450",
+    ram: 3
   },
   {
-    id: 5,
+    id: 4,
     name: "Zen Phone 5",
     manufacturer: "Asus",
     description:
@@ -87,7 +74,7 @@ const phones = [
     ram: 6
   },
   {
-    id: 6,
+    id: 5,
     name: "MI A2",
     manufacturer: "Xiaomi",
     description:
@@ -100,16 +87,29 @@ const phones = [
     ram: 6
   },
   {
+    id: 6,
+    name: "iPhone 7",
+    manufacturer: "Apple",
+    description:
+      "iPhone 7 dramatically improves the most important aspects of the iPhone experience. It introduces advanced new camera systems. The best performance and battery life ever in an iPhone. Immersive stereo speakers. The brightest, most colorful iPhone display. Splash and water resistance*. And it looks every bit as powerful as it is. This is iPhone 7.",
+    color: "black",
+    price: 769,
+    imageFileName: "IPhone_7.png",
+    screen: "4,7 inch IPS",
+    processor: "A10 Fusion",
+    ram: 2
+  },
+  {
     id: 7,
-    name: "Moto G6",
-    manufacturer: "Motorola",
+    name: "P10 Lite",
+    manufacturer: "Huawei",
     description:
       "Great phone with an excellent interface. One of the best mid price range phones in the market.",
-    color: "black",
-    price: 199,
-    imageFileName: "Moto_G6.png",
-    screen: "5,7 inch Full-HD",
-    processor: "Snapdragon 450",
-    ram: 3
+    color: "white",
+    price: 249,
+    imageFileName: "P10_Lite.jpg",
+    screen: "5,2 inch Full-HD",
+    processor: "Kirin 658",
+    ram: 4
   }
 ]
