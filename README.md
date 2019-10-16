@@ -82,3 +82,12 @@ In the project directory, you can run:
 
 - Open [http://localhost:3000](http://localhost:3000) to view the client app in the browser.
 - Open [http://localhost:5000/phones](http://localhost:5000/phones) to view the node api route
+
+## Test
+
+Some simple unit test can be tested with jest and enzyme.<br />
+In the project root directory, you can run:
+
+### `cd client`
+
+### `npm run test`
