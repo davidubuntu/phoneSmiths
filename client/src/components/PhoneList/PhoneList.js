@@ -4,11 +4,15 @@ import { PhoneListDiv } from "./style"
 const PhoneList = ({ phones }) => {
   return (
     <PhoneListDiv>
-      <div className="flex-container wrap">
-        {phones.map(p => {
-          return <PhoneCard key={p.id} phone={p} />
-        })}
-      </div>
+      {phones === undefined ? (
+        <h1>Upss.. No List Phones Available!!</h1>
+      ) : (
+        <div className="flex-container wrap">
+          {phones.map(p => {
+            return <PhoneCard key={p.id} phone={p} />
+          })}
+        </div>
+      )}
     </PhoneListDiv>
   )
 }

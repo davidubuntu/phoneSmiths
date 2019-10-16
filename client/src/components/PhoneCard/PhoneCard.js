@@ -10,7 +10,6 @@ import {
 } from "./style.js"
 import HoverImg from "../HoverImg/HoverImg"
 import colors from "../../styles/colors"
-
 const PhoneCard = ({ phone }) => {
   const [isAdded, setIsAdded] = useState(false)
 

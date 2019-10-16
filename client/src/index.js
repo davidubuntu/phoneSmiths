@@ -9,7 +9,6 @@ import thunk from "redux-thunk"
 import { Provider } from "react-redux"
 
 import { phonesReducer, initialState } from "./reducers/index"
-import { BrowserRouter as Router } from "react-router-dom"
 const middlewares = [thunk]
 const store = createStore(
   phonesReducer,
@@ -19,9 +18,7 @@ const store = createStore(
 
 ReactDOM.render(
   <Provider store={store}>
-    <Router>
-      <App />
-    </Router>
+    <App />
   </Provider>,
   document.getElementById("root")
 )
