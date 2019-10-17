@@ -8,6 +8,7 @@ import Loading from "../../components/Loading/Loading"
 
 const Phones = () => {
   const dispatch = useDispatch()
+  //Receive the api state variables from the redux store
   const phones = useSelector(state => state.phones)
   const pending = useSelector(state => state.pending)
   const error = useSelector(state => state.error)

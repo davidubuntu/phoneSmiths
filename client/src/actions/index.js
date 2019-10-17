@@ -3,7 +3,7 @@ import {
   GET_PHONES_SUCCESS,
   GET_PHONES_ERROR
 } from "../constants/ActionTypes"
-
+//Actions are called from the phonesService file controlling the api calls
 export const getPhonesPending = () => {
   return {
     type: GET_PHONES_PENDING

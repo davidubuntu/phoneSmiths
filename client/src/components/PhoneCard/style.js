@@ -105,7 +105,7 @@ export const ProductAction = styled.div`
     button {
         &.added {
             background: transparent;
-            color:${colors["white"]}
+            color:${colors["white-color"]}
             cursor: not-allowed;
             opacity: 0.65; 
         }

@@ -4,6 +4,7 @@ import {
   GET_PHONES_ERROR
 } from "../constants/ActionTypes"
 
+// Create an initial state for the store variables
 export const initialState = {
   pending: false,
   phones: [],

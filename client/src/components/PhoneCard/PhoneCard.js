@@ -26,7 +26,7 @@ const PhoneCard = ({ phone }) => {
           imgUrl={`./images/${phone.imageFileName}`}
           alt={phone.name}
           text={phone.manufacturer}
-          textColor={colors["white"]}
+          textColor={colors["white-color"]}
         />
       </ProductImageBox>
       <ProductBlock>
