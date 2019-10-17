@@ -36,8 +36,3 @@ export function phonesReducer(state = initialState, action) {
       return state
   }
 }
-
-//Api Fetch Phones Data
-export const getPhones = state => state.phones
-export const getPhonesPending = state => state.pending
-export const getPhonesError = state => state.error
