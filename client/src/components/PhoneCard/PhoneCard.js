@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import React from "react"
 import PropTypes from "prop-types"
 import {
   ProductCard,
@@ -44,6 +44,9 @@ const PhoneCard = ({ phone }) => {
 }
 PhoneCard.propTypes = {
   phone: PropTypes.object.isRequired
+}
+PhoneCard.defaultProps = {
+  phone: {}
 }
 
 export default PhoneCard

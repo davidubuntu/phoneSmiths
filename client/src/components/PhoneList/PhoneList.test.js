@@ -50,10 +50,9 @@ describe("Phones List tests", () => {
     shallow(<PhoneList />)
   })
 
-  //It renders several phones items
   it("renders list-items", () => {
     const wrapper = shallow(<PhoneList phones={phones} />)
-
+    console.log(wrapper.find(".item").debug())
     // Expect the wrapper object to be defined
     expect(wrapper.find(".list-items")).toBeDefined()
     expect(wrapper.find(".item")).toHaveLength(phones.length)

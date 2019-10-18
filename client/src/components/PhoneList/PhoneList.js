@@ -20,4 +20,5 @@ const PhoneList = ({ phones }) => {
 PhoneList.propTypes = {
   phones: PropTypes.array
 }
+
 export default PhoneList
