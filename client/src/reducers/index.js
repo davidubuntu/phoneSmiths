@@ -8,9 +8,7 @@ import {
 export const initialState = {
   pending: false,
   phones: [],
-  error: null,
-  selectedPhone: {},
-  showDetail: false
+  error: null
 }
 
 export function phonesReducer(state = initialState, action) {
