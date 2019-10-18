@@ -12,16 +12,6 @@ import {
 import HoverImg from "../HoverImg/HoverImg"
 import colors from "../../styles/colors"
 const PhoneCard = ({ phone }) => {
-  const [isAdded, setIsAdded] = useState(false)
-
-  useEffect(() => {
-    setTimeout(() => {
-      setIsAdded(false)
-    }, 500)
-  }, [isAdded])
-  const showDetailsLabel = () => {
-    setIsAdded(true)
-  }
   return (
     <ProductCard>
       <ProductImageBox>
@@ -44,11 +34,9 @@ const PhoneCard = ({ phone }) => {
               phone: phone
             }
           }}
-          className={!isAdded ? "" : "added"}
           type="button"
-          onClick={() => showDetailsLabel()}
         >
-          {!isAdded ? "BUY IT" : "✔ Go For It"}
+          BUY IT
         </AddButton>
       </ProductAction>
     </ProductCard>
