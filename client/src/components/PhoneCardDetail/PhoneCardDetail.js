@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react"
 import { useLocation } from "react-router"
 import { useHistory } from "react-router-dom"
+
 import {
   Image,
   CardContainer,

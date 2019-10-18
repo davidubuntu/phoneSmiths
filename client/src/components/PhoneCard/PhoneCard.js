@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react"
+import PropTypes from "prop-types"
 import {
   ProductCard,
   ProductImageBox,
@@ -16,9 +17,11 @@ const PhoneCard = ({ phone }) => {
   useEffect(() => {
     setTimeout(() => {
       setIsAdded(false)
-    }, 1000)
+    }, 500)
   }, [isAdded])
-
+  const showDetailsLabel = () => {
+    setIsAdded(true)
+  }
   return (
     <ProductCard>
       <ProductImageBox>
@@ -43,12 +46,16 @@ const PhoneCard = ({ phone }) => {
           }}
           className={!isAdded ? "" : "added"}
           type="button"
+          onClick={() => showDetailsLabel()}
         >
           {!isAdded ? "BUY IT" : "✔ Go For It"}
         </AddButton>
       </ProductAction>
     </ProductCard>
   )
+}
+PhoneCard.propTypes = {
+  phone: PropTypes.object.isRequired
 }
 
 export default PhoneCard
